@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- fontawsome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.JPG" type="image/x-icon">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="bootstrap-5.3.7-dist//css/bootstrap.min.css">
+        <!-- <script src="bootstrap-5.3.7-dist/js/bootstrap.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+        <title>Afghanistan’s Digital Tomorrow</title>
+
+        <style>
+            .hero{
+                padding: 40px 20px;
+                background: linear-gradient(90deg, #c9def4, #f5ccd4, #b8a4c9);
+            }
+            .modal-content{
+                background: linear-gradient(90deg, #c9def4, #f5ccd4, #b8a4c9);
+            }
+            .img{
+                height: 400px;
+                width: 800px;
+                border-radius: solid 5px rgb(72, 99, 150);
+            }
+            .navbar-brand{
+                font-family:"Michroma", sans-serif;
+                font-size: 25px;
+            }
+            .image{
+                height: 250px;
+            }
+            .card-text, .para{
+                text-align: justify;
+            }
+            .mission-section{ 
+                background: linear-gradient(90deg, #c9def4, #f5ccd4, #b8a4c9);
+            }
+            #p1{
+                background-color: rgba(248, 138, 11, 0.616);
+            }
+            #p2{
+                background-color: rgba(48, 224, 86, 0.616);
+            }
+            #p3{
+                background-color: rgba(124, 33, 199, 0.616);
+            }
+            #p4{
+                background-color: rgba(228, 231, 63, 0.616);
+            }
+            .carousel-control-prev {
+                left: -40px;
+                
+            }
+            .carousel-control-next{
+                right: -20px;
+            }
+            .carousel-indicators{
+                bottom: -50px;
+            }
+            body{
+                padding-top: 60px;
+                background-color: rgba(246, 244, 242, 0.74);
+                font-family: "Outfit", sans-serif;
+            }
+            #c1:hover{
+                box-shadow: 0 8px 12px rgba(248, 138, 11, 0.616);
+            }
+            #c2:hover{
+                box-shadow: 0 8px 12px rgba(48, 224, 86, 0.616);
+            }
+            #c3:hover{
+                box-shadow: 0 8px 12px rgba(124, 33, 199, 0.616);
+            }
+            #c4:hover{
+                box-shadow: 0 8px 12px rgba(228, 231, 63, 0.616);
+            }
+            #contactbtn{
+                background: linear-gradient(90deg, #c9def4, #f5ccd4, #b8a4c9);
+            }
+            .more{
+                background-color: rgba(0, 0, 0, 0.719);
+                color: white;
+            }
+        </style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logo1.png" alt=""> Roshan AI</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-menu" 
+                aria-controls="mob-menu" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="mob-menu">
+                    <ul class=" nav navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#product">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#progress">Progress</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#feature">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <section class="hero" id="home">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+        
+            <!-- Carousel Inner -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center">
+                            <img class="img rounded hero-img img-fluid " src="c5.JPG" alt="a photo of roshan AI">
+                        </div>
+                        <div class="col-md-5 text-center text-md-start mt-5 mt-sm-0">
+                            <h1 class="fw-bold">RoshanAI – Bringing Smart Light to Afghan Classrooms</h1>
+                            <p class="text-black-50">A speech-to-text system that transcribes spoken Persian into editable text.</p>
+                            <button class="btn btn-lg mt-3 more">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center">
+                            <img class="img rounded hero-img img-fluid " src="c6.JPG" alt="a photo of roshan AI">
+                        </div>
+                        <div class="col-md-5 text-center text-md-start mt-5 mt-sm-0">
+                            <h1 class="fw-bold">Empower Afghanistan Through Artificial Intelligence</h1>
+                            <p class="text-black-50">An AI-powered question-answering system that provides intelligent responses to user inquiries.</p>
+                            <button class="btn btn-lg mt-3 more">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center">
+                            <img class="img rounded hero-img img-fluid " src="c4.JPG" alt="a photo of roshan AI">
+                        </div>
+                        <div class="col-md-5 text-center text-md-start mt-5 mt-sm-0">
+                            <h1 class="fw-bold">AI Technology, Made for Afghanistan</h1>
+                            <p class="text-black-50">An OCR tool that converts images and scanned documents into searchable and editable text in Persian, Arabic, and English.</p>
+                            <button class="btn btn-lg mt-3 more">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7 text-center">
+                            <img class="img rounded hero-img img-fluid " src="c7.JPG" alt="a photo of roshan AI">
+                        </div>
+                        <div class="col-md-5 text-center text-md-start mt-5 mt-sm-0">
+                            <h1 class="fw-bold">Leading AI Revolution in Afghanistan</h1>
+                            <p class="text-black-50">A machine learning platform that identifies and learns concepts within texts, images, and videos through user-provided examples.</p>
+                            <button class="btn btn-lg mt-3 more">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+
+        <!-- features section -->
+        <section class="py-5" id="product">
+            <div class="container">
+                <h2 class="text-center mt-3 mb-5">Roshan AI Products</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-3">
+                        <div class="card p-2" id="c1">
+                            <img class="card-img img-fluid image w-100"  src="card1.png" alt="">
+                            <h4 class="card-title">Alefba</h4>
+                            <p class="card-text">
+                                Alefba is a powerful OCR tool that extracts text from Persian, Arabic, 
+                                and English images or PDFs. It accurately identifies text blocks, tables, and images.
+                            </p>
+                            <a class="text-decoration-none" href="#">Learn More &rArr;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card p-2" id="c2">
+                            <img class="card-img img-fluid image w-100"  src="card2.png" alt="">
+                            <h4 class="card-title">Harf</h4>
+                            <p class="card-text">
+                                Harf converts spoken Persian into written text with high accuracy.
+                                It's designed for applications like transcribing interviews, lectures voice notes.
+                            </p>
+                            <a class="text-decoration-none" href="#">Learn More &rArr;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card p-2" id="c3">
+                            <img class="card-img img-fluid image w-100"  src="card4.png" alt="">
+                            <h4 class="card-title">Kashf</h4>
+                            <p class="card-text">
+                                Keshf enables semantic search across texts and images, understanding 
+                                the meaning behind queries to deliver accurate results. 
+                            </p>
+                            <a class="text-decoration-none" href="#">Learn More &rArr;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card p-2" id="c4">
+                            <img class="card-img img-fluid image w-100"  src="card5.png" alt="">
+                            <h4 class="card-title">Hazm</h4>
+                            <p class="card-text">
+                                Hazm is a comprehensive natural language processing library for Persian.
+                                It offers tools for tokenization, stemming, lemmatization, and more.  
+                            </p>
+                            <a class="text-decoration-none" href="#">Learn More &rArr;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- progressBars -->
+        <section id="progress">
+            <div class="container mt-4">
+                <h2 class="text-center">Roshan AI Products - Efficiency Overview</h2>
+                <div class="mt-5"></div>
+                <h5>Alefba</h5>
+                <div class="progress">
+                    <div class="progress-bar" id="p1" style="width: 32%;"> 32%</div>
+                </div>
+                <div class="mt-5"></div>
+                <h5>Harf</h5>
+                <div class="progress">
+                    <div class="progress-bar" id="p2" style="width: 40%;"> 40%</div>
+                </div>
+                <div class="mt-5"></div>
+                <h5>Kashf</h5>
+                <div class="progress">  
+                    <div class="progress-bar" id="p3" style="width: 60%;"> 60%</div>
+                </div>
+                <div class="mt-5"></div>
+                <h5>Hazm </h5>
+                <div class="progress">
+                    <div class="progress-bar" id="p4" style="width: 45%;"> 45%</div>
+                </div>
+            </div>
+        </section><br><br>
+
+        <!-- vision or mission section -->
+        <section id="feature">
+            <div class="container my-5">
+                <h2 class="text-center">Roshan AI's Contribution to Society</h2>
+                <div class="mt-5"></div>
+                <div class="mission-section p-4 border border-3 rounded shadow">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ms-auto text-center">
+                            <img class="rounded img-fluid " src="pic.png" alt="">
+                        </div>
+                        <div class="col-md-6 ms-auto text-light mt-5 mt-sm-0">
+                            <p class="mt-3 para">
+                                Roshan AI can play an important role in advancing Afghanistan’s
+                                technology and daily life by providing smart tools that understand
+                                and process the Dari language, which is spoken by many people in the
+                                country. This makes it easier for individuals, students, and professionals 
+                                to access information, learn new skills, and communicate effectively.
+                                In education, Roshan AI’s tools can help teachers create better lessons 
+                                and support students in understanding difficult subjects. For businesses, 
+                                the AI services can automate repetitive tasks, improve customer service,
+                                and help analyze important data, which can lead to growth and success.
+                                Government offices can also benefit by using AI to digitize records and 
+                                offer faster public services. Moreover, in healthcare, AI can assist doctors 
+                                and nurses in managing patient information and providing remote care.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact-section -->
+        <section class="mt-6" id="contact">
+            <div class="container">
+                <h2 class="text-center mb-4">Contact Details</h2>
+                <div class=" mt-5"></div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-envelope me-3"></i><p>
+                                <span>Email Address</span><br>
+                                salam@roshan-ai.ir
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-phone me-3"></i> <p>
+                                <span>Phone</span><br>
+                                +98 21 88 94 36 38
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fa-solid fa-location-dot me-3"></i> <p>
+                                <span>Address</span><br>
+                                Tehran,Afareen street
+                            </p>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fab fa-github me-3"></i> <p>
+                                <span>GetHub</span><br>
+                                SaraNiazi_1381
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                    <form class=" p-3 rounded">
+                            <div class="form-group">
+                                <label>Name</label >
+                                <input type="text" name="Username" class="form-control border-0">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label >
+                                <input type="Email" name="email" class="form-control border-0">
+                            </div>
+                            <div class="form-group">
+                                <label>Number</label>
+                                <input type="number" name="number" class="form-control border-0">
+                            </div>
+                            <div class="form-group">
+                                <label>Write Your Message</label>
+                                <textarea name="textarea" class="form-control border-0" rows="4"></textarea>
+                            </div>
+                            <div class="form-group mt-3 text-center">
+                                <button id="contactbtn" data-bs-toggle="modal" data-bs-target="#modal" type="submit" name="Send Yor Message" class="btn btn-md text-light fw-bold" class="form-control">Send Yor Message</button>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <section>
+            <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modallable1" aria-hidden="true" >
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Afghanistan’s Digital Tomorrow</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>Thanks For Sending Message :)</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <footer class="bg-dark footer mt-5">
+            <div class="container-fluid text-center text-light text-align-center p-4">
+                <div>
+                    <img src="logo1.png" alt="">
+                    <p>Smart Solutions for a Brighter Future</p>
+                    <p>&copy; 2025 My Class Project. Sara, All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
